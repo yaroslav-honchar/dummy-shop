@@ -1,0 +1,15 @@
+:root {
+	--black: #000;
+	--white: #fff;
+
+	/* Topography settings */
+	--font-roboto: "Roboto", sans-serif;
+	--font-primary: var(--font-roboto);
+	--font-size: 16px;
+
+	/* Theme settings */
+	--bg-color-primary: var(--white);
+	--bg-color-secondary: var(--black);
+	--text-color-primary: var(--black);
+	--text-color-secondary: var(--white);
+}
