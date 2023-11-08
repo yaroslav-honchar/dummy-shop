@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
     "fix:eslint": "eslint src/**/*.{ts,tsx} --fix --config .eslintrc.json",
     "fix:stylelint": "stylelint src/**/*.css --fix"
   },
@@ -16,11 +15,11 @@
     }
   },
   "lint-staged": {
-    "*.ts?(x)": [
+    "src/**/*.ts?(x)": [
       "npm run fix:eslint",
       "git add ."
     ],
-    "*.css": [
+    "src/**/*.css": [
       "npm run fix:stylelint",
       "git add ."
     ]
